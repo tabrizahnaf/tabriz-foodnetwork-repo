@@ -22,7 +22,8 @@
     font-family: 'Poppins', sans-serif; 
   }
   .first-header{
-    display: flex;
+    display: inline-flex;
+    margin-bottom:150px;
   }
   .first-header h1{
     font-size: 40px;
@@ -47,3 +48,54 @@
     font-weight: 700;
     border-radius: 20px;
   }
+  #center{
+    text-align: center;
+  }
+  #center h1{
+    font-size: 30px;
+    color: gray;
+
+  }
+  .column {
+    float: left;
+    width: 25%;
+    padding: 5px;
+    box-shadow: 10px 10px 40px gray;
+    margin-left: 5%;
+    border-radius: 10px;
+  }
+  
+  
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  
+  
+
+  .flllowing{
+    display: flex;
+    box-shadow: 10px 10px 40px gray;
+    margin: 30px ;
+  }
+  .follow{
+    width:25%;
+  }
+  #footer{
+    background-color: black;
+    color: white;
+    text-align:center;
+    padding:30px;
+    
+  }
+  .food{
+    color:orange;
+  }
+  .network{
+    color:gray;
+    padding-bottom: 80px;
+  }
+  
+
+  
